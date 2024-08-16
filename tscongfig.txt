@@ -1,0 +1,9 @@
+tsc --init
+this will create tsconfig.json
+
+
+"outDir": './dist' uncomment it
+this will make sure all files will be created in dist,
+make sure to run it with (tsc) command only.
+
+
