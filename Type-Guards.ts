@@ -3,19 +3,19 @@
 // partial, required, Readonly
 
 // type guards -> type narrowing
-// function TypeGuard(arg: string | number | any) {
-//     if (typeof arg === 'number') {
-//         return 'number';
-//     } else if (typeof arg === 'string') {
-//         return 'string';
-//     } else {
-//         throw new Error('Invalid Argument');
-//     }
-// }
+function TypeGuard(arg: string | number | any) {
+    if (typeof arg === 'number') {
+        return 'number';
+    } else if (typeof arg === 'string') {
+        return 'string';
+    } else {
+        throw new Error('Invalid Argument');
+    }
+}
 
-// console.log(TypeGuard(10)); // number
-// console.log(TypeGuard('Hello')); // string
-// console.log(TypeGuard(true)); // Error
+console.log(TypeGuard(10)); // number
+console.log(TypeGuard('Hello')); // string
+console.log(TypeGuard(true)); // Error
 
 
 // instanceof -> instance narrowing
