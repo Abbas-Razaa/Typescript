@@ -6,7 +6,6 @@
 
 // let arr3: [number, string] = [2,'gey']; // it is a tuple, first number then string because we have defined.
 
-
 // running typescript : tsc filename,  it will create a js file
 
 // tsc --watch, this will make files in watch mode and show all changes in real time
@@ -32,12 +31,11 @@
 
 // abcd();
 
-
 // Enumeration:
 
 enum Human {
-    name = 'harsh',
-    age = 25
+  name = "harsh",
+  age = 25,
 }
 
 console.log(Human.name);
