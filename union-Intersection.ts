@@ -14,4 +14,3 @@
 // else if (typeof variable === 'number'){
 //     variable.toFixed(2);
 // }
-
